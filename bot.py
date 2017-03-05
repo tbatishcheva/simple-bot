@@ -3,7 +3,7 @@ import random
 import string
 import config
 import telebot
-import Flask
+from flask import Flask
 
 
 app = Flask(__name__)
