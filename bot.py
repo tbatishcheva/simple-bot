@@ -3,6 +3,10 @@ import random
 import string
 import config
 import telebot
+import Flask
+
+
+app = Flask(__name__)
 
 bot = telebot.TeleBot(config.token)
 
